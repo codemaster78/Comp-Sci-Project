@@ -1,2 +1,2 @@
-# Comp-Sci-Project
-NPC python project for AP computer science principles
+# My Computer Science NPC Project
+NPC python project for CSAEA (AP Comp Sci principles)
