@@ -1,5 +1,6 @@
 import random
 import time
+import names
 
 f = open("charecters.txt", "w")
 count = int(input("Enter how many charecters you want: "))
@@ -16,10 +17,6 @@ for i in range(1, count + 1):
   age = random.randint(minage, maxage)
   print(f'age: {age}')
   f.write(f'age: {age}\n')
-    
-  #getting the name
-  name = input("Enter the name of the charecter: ")
-  f.write("Name: " + name + "\n")
     
   #getting height of charecter
   feet = random.randint(4, 7)
@@ -39,15 +36,20 @@ for i in range(1, count + 1):
   f.write(f'speed: {speed}\n')
     
   #getting gender
-  gender = random.choice(["Male", "Female"])
+  gender = random.choice(["male", "female"])
   time.sleep(0.75)
   print(f'gender: {gender}')
   f.write(f'gender: {gender}')
 
+  #getting the Name
+  name = names.get_full_name(gender = gender)
+  print(f'Name: {name}')
+  f.write("Name: " + name + "\n")
+
   #Language
   lang = random.choice([True, False])
   time.sleep(0.75)
-  print(f'English speaker?: {lang}\n\n\n')
+  print(f'English speaker: {lang}\n\n\n')
   f.write(f'English speaker: {lang}\n\n\n')
 
 print("Charecters have been created")
