@@ -24,7 +24,8 @@ The NPC Data Generator allows users to create multiple NPC profiles with randomi
 3. **Output**: NPC data is displayed on the console and written to a file called `charecters.txt`.
 
 ## 💾 Example Output file
-```Charecter #1
+```
+Charecter #1
 
 age: 72
 height: 6 feet and 7 inches
