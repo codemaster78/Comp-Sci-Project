@@ -59,5 +59,4 @@ English speaker: True
 ```
 
 ## Requirements
-- Install Python
 - In the terminal run `pip install names`
