@@ -22,3 +22,33 @@ The NPC Data Generator allows users to create multiple NPC profiles with randomi
    - **Name**: A gender-specific full name.
    - **Language**: Boolean indicating if the NPC speaks English.
 3. **Output**: NPC data is displayed on the console and written to a file called `charecters.txt`.
+
+## 💾 Example Output file
+```Charecter #1
+
+age: 72
+height: 6 feet and 7 inches
+health: 4/10
+speed: 2
+gender: maleName: Steven Norman
+English speaker: True
+
+
+Charecter #2
+
+age: 18
+height: 7 feet and 8 inches
+health: 3/10
+speed: 39
+gender: maleName: Duane Jagers
+English speaker: True
+
+
+Charecter #3
+
+age: 75
+height: 5 feet and 10 inches
+health: 7/10
+speed: 27
+gender: femaleName: Candice Gates
+English speaker: True```
