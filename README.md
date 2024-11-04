@@ -11,6 +11,9 @@ The NPC Data Generator allows users to create multiple NPC profiles with randomi
 - **File Export**: Generated NPC data is saved to a `charecters.txt` file.
 - **User Input**: Customize the number of NPCs to generate and set age ranges for each.
 
+## Requirements
+- In the terminal run `pip install names`
+
 ## 💻 How It Works
 1. **Input**: The program prompts the user for the number of NPCs to create and an age range for each NPC.
 2. **Randomization**: The program generates random values for each attribute:
@@ -57,6 +60,3 @@ gender: female
 Name: Candice Gates
 English speaker: True
 ```
-
-## Requirements
-- In the terminal run `pip install names`
