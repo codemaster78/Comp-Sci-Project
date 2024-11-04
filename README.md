@@ -31,7 +31,8 @@ age: 72
 height: 6 feet and 7 inches
 health: 4/10
 speed: 2
-gender: maleName: Steven Norman
+gender: male
+Name: Steven Norman
 English speaker: True
 
 
@@ -41,7 +42,8 @@ age: 18
 height: 7 feet and 8 inches
 health: 3/10
 speed: 39
-gender: maleName: Duane Jagers
+gender: male
+Name: Duane Jagers
 English speaker: True
 
 
@@ -51,5 +53,11 @@ age: 75
 height: 5 feet and 10 inches
 health: 7/10
 speed: 27
-gender: femaleName: Candice Gates
-English speaker: True```
+gender: female
+Name: Candice Gates
+English speaker: True
+```
+
+## Requirements
+- Install Python
+- In the terminal run `pip install names`
