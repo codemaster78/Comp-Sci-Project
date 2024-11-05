@@ -38,7 +38,7 @@ for i in range(1, count + 1):
   #getting gender
   gender = random.choice(["male", "female"])
   time.sleep(0.75)
-  print(f'gender: {gender}\n')
+  print(f'gender: {gender}')
   f.write(f'gender: {gender}\n')
 
   #getting the Name
